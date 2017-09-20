@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<meta charset="UTF-8"> 
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+<head>
+
+</head>
+<body>
+    <p>Ingrese criterio de busqueda</p>
+	<input id="criterio" type="text" size="25">
+    <button id="buttonSearch">Buscar</button>
+	<table>
+		<tr>
+			<th>Tipo</th>
+			<th>Id</th>
+			<th>Nombre</th>
+			<th>Descripcion</th>
+			<th>Direccion</th>
+		</tr>
+		<tr>
+			<td id="1"></td>
+			<td id="2"></td>
+			<td id="3"></td>
+			<td id="4"></td>
+			<td id="5"></td>
+		</tr>
+	</table>
+	<p>Modifique la descripcion</p>
+	<input id="Descripcion" type="text" size="25">
+    <button id="buttonChange">Cambiar</button>
+	<table>
+    <script src='fiix-cmms-client-2.6.3.js'></script>
+    <script type="text/javascript" src='jsprog.js'></script>
+</body>
