@@ -869,6 +869,7 @@ var FiixCmmsClient = function () {
     }
 
     function prepareFindById(params) {
+		alert(JSON.stringify(params));
         params[C_MAGICK_API_OBJECT_JSON_FIELD_NAME] = "FindByIdRequest";
         return params;
     }
@@ -896,6 +897,7 @@ var FiixCmmsClient = function () {
     }
 
     function prepareAdd(params) {
+		alert(JSON.stringify(params));
         params[C_MAGICK_API_OBJECT_JSON_FIELD_NAME] = "AddRequest";
 
         var className = params[C_CLASS_NAME];

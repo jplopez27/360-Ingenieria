@@ -21,8 +21,10 @@ tr:nth-child(even) {
 
 </head>
 <body>
-    <p>Ingrese criterio de busqueda</p>
-	<input id="criterio" type="text" size="25">
+    <p>Ingrese Id del aparato</p>
+	<input id="criterioId" type="text" size="25">
+    <p>Ingrese codigo del aparato</p>
+	<input id="criterioCode" type="text" size="25">
     <button id="buttonSearch">Buscar</button>
 	<table>
 		<tr>
@@ -43,6 +45,8 @@ tr:nth-child(even) {
 	<p>Modifique la descripcion</p>
 	<input id="Descripcion" type="text" size="25">
     <button id="buttonChange">Cambiar</button>
+    <button id="buttonMeasure">Medir</button>
+    <button id="buttonAdd">Añadir</button>
 	<table>
     <script src='fiix-cmms-client-2.6.3.js'></script>
     <script type="text/javascript" src='jsprog.js'></script>
